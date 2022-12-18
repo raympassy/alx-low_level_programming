@@ -3,15 +3,20 @@
 #include <stdio.h>
 
 /**
- * main - prints all aphabets in reverse order and a new line
+ * main - prints all characters of base16 and a new line
  *Return: zero or number value
 */
 
 int main(void)
 {
 	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
