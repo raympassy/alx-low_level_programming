@@ -1,0 +1,1 @@
+more functions on pointers_arrays_strings
