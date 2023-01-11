@@ -3,7 +3,7 @@
 int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 /**
- * find_sqrt-  returns the natural square root of a number
+ * find_sqrt - returns the natural square root of a number
  * @num: the number to find the root
  * @root: the natural root
  * Return: natural root of number
@@ -11,6 +11,6 @@ int _sqrt_recursion(int n);
 */
 int find_sqrt(int num, int root)
 {
-	if ((root * root == num)
+	if ((root * root) == num)
 			return (root);
 }
