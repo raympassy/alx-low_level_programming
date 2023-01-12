@@ -1,4 +1,4 @@
-#include " main.h"
+#include "main.h"
 /**
  *_length - detects the length of a string
  *@s: the string
