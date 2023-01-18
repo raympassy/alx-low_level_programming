@@ -1,15 +1,15 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_diagsums - prints the sum of the two diagonals
- * @a: array
- * @size: size
- * Return: 0
+ * @a: pointer of array
+ * @size: size of array
+ * Return: void
 */
 
 void print_diagsums(int *a, int size)
 {
-	int a, size1;
+	int i, size1;
 	unsigned int sumDiag1, sumDiag2;
 
 	size1 = 0
