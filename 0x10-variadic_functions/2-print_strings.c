@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <sdarg.h>
+#include <stdarg.h>
 
 /**
  * print_strings - prints string followed by a line
