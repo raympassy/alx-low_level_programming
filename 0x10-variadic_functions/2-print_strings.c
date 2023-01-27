@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdlib.h>
+
 /**
- * print_strings - prints strings followebd by new line
+ * print_strings - Prints strings followed by new line
  * @separator: string to be printed
  * @n: number of strings
  *
@@ -22,7 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		s = va_arg(strings, char *);
 
 		if (s == NULL)
-			s = "(nil)";
+			s =("(nil)");
 		printf("%s", s);
 		if (i < n - 1)
 		{
